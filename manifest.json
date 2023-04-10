@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Random Bookmark Chooser",
+  "description": "This extension will choose a random bookmark from a bookmarks folder that you specify",
+  "version": "1.0",
+  "action": {
+    "default_icon": "images/logo.png",
+    "default_title": "Random Bookmark Chooser",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "bookmarks"
+  ]
+}

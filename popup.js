@@ -1,0 +1,1 @@
+window.open('selectionPage.html', "_blank");

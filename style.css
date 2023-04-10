@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.bookmarks-header {
+  background-color: #f8f8f8;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bookmarks-header input[type="text"] {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px #ccc;
+}
+
+.bookmarks-container {
+  padding: 10px;
+}
+
+.bookmarks-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bookmarks-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.bookmarks-list a {
+  text-decoration: none;
+  color: #333;
+}
+
+.bookmarks-list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bookmarks-list ul li {
+  padding: 10px;
+  border-bottom: none;
+}
+
+.bookmarks-list ul li a {
+  color: #666;
+}
+
+.bookmarks-list ul li a:hover {
+  color: #333;
+}
